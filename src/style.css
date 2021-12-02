@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html { 
+    font-family: sans-serif;
+  }
+  
+  .linha, .coluna {
+    display: flex;
+  }
+  
+  .coluna {
+    flex-direction: column;
+  }
+  
+  .coluna.centralizado {
+    align-items: center;
+  }
+  
+  .espacado {
+    gap: 5mm;
+  }
+  
+  hr {
+    width: 100%;
+  }
+
+  ul, li
+  {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
